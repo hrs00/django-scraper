@@ -23,3 +23,4 @@ py manage.py crontab add
 ```bash
 py manage.py runserver
 ```
+<img src="https://github.com/hrs00/django-scraper/assets/135930294/f17a22ad-0d88-4108-9dfd-55f6c75e8680">
