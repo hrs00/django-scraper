@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.job-controls {
+    margin-bottom: 2rem; /* Add some space between sections */
+}
+
+.job-controls button {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.job-controls button:hover {
+    background-color: #0056b3;
+}
+
+.job-status p {
+    margin: 0.5rem 0;
+}
+
+#totalRecords {
+    font-weight: bold;
+}
+
+#lastRunStatus {
+    font-weight: bold;
+    color: #28a745; /* Green color for success */
+}
+
+#nextScheduledRun {
+    font-weight: bold;
+    color: #333;
+}

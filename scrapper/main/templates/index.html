@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Scraper Monitor</title>
+</head>
+<body>
+    <header>
+        <h1>Scraper Monitor</h1>
+    </header>
+    <main>
+        <section class="job-controls">
+            <h2>Job Controls</h2>
+            <button id="startJob"><a style="color: inherit; text-decoration: none" href="/enable">Enable Job</a></button>
+            <button id="stopJob"><a style="color: inherit; text-decoration: none" href="/disable">Disable Job</a></button>
+            <button id="triggerJob"><a style="color: inherit; text-decoration: none" href="/trigger">Trigger Job</a></button>
+        </section>
+        <section class="job-status">
+            <h2>Job Status</h2>
+            <p>Total Records Scraped: <span id="totalRecords"></span>{{ total }}</p>
+        </section>
+    </main>
+</body>
+</html>
