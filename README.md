@@ -2,7 +2,7 @@
 
 ## About
 
-Django based app to run scraping cron job twice a day to scrape data about flats in pune, delhi, bengaluru, hyderabad, kolkata anad mumbai from housing.com.
+Django based app to run scraping cron job twice a day to scrape data about flats in pune, delhi, bengaluru, hyderabad, kolkata, jaipur, lucknow, agra, chennai and mumbai from housing.com.
 
 ## Requisites
 
